@@ -1,0 +1,65 @@
+# 所有 joint 上下限 +0.02 rad margin：handover 姿態會把關節頂到限位，物理/浮點過衝
+# ~0.0001-0.0003 rad 就會被 move_group 的 CheckStartStateBounds 直接 abort 規劃（雙臂 -26 根因）。
+# Isaac 物理限位另由 USD 控制，此處只放寬 MoveIt 規劃的接受範圍。
+joint1:
+  limit:
+    lower: -1.416263
+    upper: 3.510659
+    velocity: 16.754666
+    effort: 40
+
+joint2:
+  limit:
+    lower: -1.765329
+    upper: 1.765329
+    velocity: 16.754666
+    effort: 40
+
+joint3:
+  limit:
+    lower: -1.590796
+    upper: 1.590796
+    velocity: 5.445426
+    effort: 27
+
+joint4:
+  limit:
+    lower: -0.02
+    upper: 2.463461
+    velocity: 5.445426
+    effort: 27
+
+joint5:
+  limit:
+    lower: -1.590796
+    upper: 1.590796
+    velocity: 20.943946
+    effort: 7
+
+joint6:
+  limit:
+    lower: -0.805398
+    upper: 0.805398
+    velocity: 20.943946
+    effort: 7
+
+joint7:
+  limit:
+    lower: -1.590796
+    upper: 1.590796
+    velocity: 20.943946
+    effort: 7
+
+# joint_gripper1:
+#   limit:
+#     lower: 0.0
+#     upper: 0.043
+#     velocity: 100
+#     effort: 100
+
+# joint_gripper2:
+#   limit:
+#     lower: 0.0
+#     upper: 0.043
+#     velocity: 100
+#     effort: 100

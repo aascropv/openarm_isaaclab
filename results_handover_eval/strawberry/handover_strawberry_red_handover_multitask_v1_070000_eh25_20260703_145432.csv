@@ -1,0 +1,11 @@
+episode,success,timeout,duration_s,arm_returned_home,fail_reason,fruit_init_x,fruit_init_y,fruit_init_z,fruit_final_x,fruit_final_y,fruit_final_z
+0,False,True,75.03,False,timeout,0.3232,0.1002,0.2096,0.321,0.0919,0.2108
+1,True,False,18.51,True,,0.3149,0.1472,0.2101,0.2729,-0.0761,0.216
+2,True,False,21.51,True,,0.3149,0.1472,0.2101,0.2792,-0.094,0.2098
+3,True,False,18.01,True,,0.3149,0.1472,0.2101,0.2733,-0.0859,0.24
+4,False,True,75.03,False,timeout,0.3565,0.1544,0.2099,0.636,0.5117,0.0256
+5,False,True,75.02,False,timeout,0.3489,0.1135,0.2096,0.3794,0.1036,0.2096
+6,True,False,22.01,True,,0.3149,0.1472,0.2101,0.2849,-0.0841,0.2116
+7,False,True,75.03,False,timeout,0.3149,0.1472,0.2101,0.0651,-0.1355,0.0256
+8,True,False,18.51,True,,0.3149,0.1472,0.2101,0.2747,-0.0602,0.2116
+9,True,False,20.51,True,,0.3149,0.1472,0.2101,0.2861,-0.053,0.211
